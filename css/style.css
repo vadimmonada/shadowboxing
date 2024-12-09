@@ -1,56 +1,60 @@
-.header {
-    background-color: bisque;
-    border: 1px solid yellow;
+body, html {
+    background-color: black;
 }
 
-.conteiner {
-    max-width: 1000px;
-    padding: 0 10px;
-    margin: 0 auto;
+h1, h2 {
+    margin: 0;
+}
+
+.day-title {
+    color: yellow;
+    text-shadow: 1px 1px 5px yellow;
+    text-align: center;
+}
+
+.day__text {
+    color: yellow;
+    text-align: justify;
+    padding: 0 5px;
+}
+
+.wrapping {
+    height: 100%;
+    border: 10px solid yellow;
+}
+
+.header {
+    background-color: yellow;
+    border: 5px solid #000;
+    text-align: center;
 }
 
 .header__title {
-    text-align: center;
-}
-
-.header__nav {
-    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.header__nav-link {
-    text-decoration: none;
-    color: inherit;
-    background-color: transparent;
-    transition: background-color 0.9s;
+.header__title-diary {
+    text-shadow: 1px 1px 5px #000;
+    margin-bottom: 10px;
 }
 
-.header__nav-link:hover {
-    padding: 5px 5px;
-    background-color: yellow;
-}
-
-main {
-    background-color: bisque;
-    border: 1px solid yellow;
+.day0 {
+    border: 5px solid yellow;
+    color: yellow;
     text-align: center;
+    margin: 0 5px 5px 5px;
 }
 
-.main__text {
-    text-align: justify;
+.day1 {
+    border: 5px solid yellow;
+    color: yellow;
+    text-align: center;
+    margin: 0 5px 5px 5px;
 }
 
-#day1__text a {
-    text-decoration: none;
-    color: inherit;
-    background-color: transparent;
-    transition: background-color 0.9s;
+.day1__list {
+    color: yellow;
 }
 
-#day1__text a:hover {
-    background-color: yellow;
-}
-
-#day1 {
-    border: 1px solid #000;
-}
