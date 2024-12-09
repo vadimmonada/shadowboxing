@@ -39,3 +39,19 @@ main {
 .main__text {
     text-align: justify;
 }
+
+#day1__text a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    transition: background-color 0.9s;
+}
+
+#day1__text a:hover {
+    background-color: yellow;
+}
+
+#day1 {
+    border: 1px solid #000;
+}
+

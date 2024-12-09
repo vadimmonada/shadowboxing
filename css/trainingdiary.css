@@ -13,6 +13,51 @@ html, body {
     border-bottom: 1px solid yellow;
 }
 
+.header__title {
+    text-shadow: 1px 1px 5px yellow;
+}
+
+/* ЖУРНАЛ ТРЕНИРОВКИ */
+#day1 {
+    border-bottom: 1px solid yellow;
+}
+#day1 h2 {
+    text-shadow: 1px 1px 5px yellow;
+}
+
+#day1__data {
+    text-align: right;
+}
+
 #day0 {
     border-bottom: 1px solid yellow;
 }
+
+#day0 h2 {
+    text-shadow: 1px 1px 5px yellow;
+}
+
+#day0-data {
+    text-align: right;
+}
+
+/* АДАПТИВ */
+
+@media (max-width: 665px) {
+    #day1__video {
+        width: 500px;
+    }
+}
+
+@media (max-width: 527px) {
+    #day1__video {
+        width: 400px;
+    }
+}
+
+@media (max-width: 427px) {
+    #day1__video {
+        width: 300px;
+    }
+}
+
